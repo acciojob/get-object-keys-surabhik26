@@ -1,8 +1,6 @@
 //your JS code here. If required.
 let student={
-	name: "John",
-	age: 22,
-	city: "New York"
+	name: "John"
 };
 
 function getKeys(obj){
@@ -10,3 +8,11 @@ function getKeys(obj){
 }
 
 console.log(getKeys(student));
+
+let multipleProperties= {
+	name: "Johnny",
+	age: 34,
+	city: "London"
+};
+
+console.log(getKeys(multipleProperties));
